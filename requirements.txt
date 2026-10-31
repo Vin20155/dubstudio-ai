@@ -1,0 +1,22 @@
+numpy>=1.26.0,<2.0.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-dotenv>=1.0.0
+faster-whisper>=1.0.0
+# PyAV 17+ removed the "metadata_errors" argument that faster-whisper still
+# passes to av.open(), which breaks Whisper transcription with a TypeError.
+av>=14,<17
+funasr>=1.1.0
+modelscope>=1.15.0
+torch>=2.1.0
+torchaudio>=2.1.0
+edge-tts>=7.3.1
+google-genai>=1.0.0
+python-multipart>=0.0.9
+pydub>=0.25.1
+soundfile>=0.12.1
+aiofiles>=24.1.0
+demucs>=4.0.0
+audio-separator>=0.17.0
+pytest>=8.0.0
+tenacity>=8.2.0
